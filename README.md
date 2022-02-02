@@ -20,6 +20,7 @@ This page contains several information for the object based localization methods
 
 Nummer|Class|Object|distance|distance|dimension 2D|a_obj|spatial plane|frustum volume|a_norm|dimension|shape|normed obj|material|surface|LOO|persistence|Environment|AI dataset|distribution aound vehicle|suitability||Camrea bis Fahrbahnrand rechts|1,75||Street length in Germany [km]|627000|
 |--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
+
 |||min|max|||||||handling||||||||||||||Höhe camera [m]|1,2||Area of Germany [km²]|357386|
 |||[m]|[m]|[cm x cm]|[m²]||m³|[m²]|[2D/3D]|||||[1/km]|[yr]|||||||||||
 1|Ground Objets|Straße|10|300|l=30000 x w=300||XY|53,94|0,1798|2D|Rect|ja|Asphalt, Beton, Schoter|Regelmäsig, rau|3,333333333|30|-|x|Fahrtrichtung|5,993333333|||||||
