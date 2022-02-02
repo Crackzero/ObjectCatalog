@@ -7,8 +7,8 @@ This page contains several information for the object based localization methods
 * A table with objects, attributes and suitability in comparsion of their suitability for object-based localization methods. The suitability is claculated by the object-based norm
 
 
-| number        | object class  | object       |  d_min       | d_max        |  dimensions  | shape        | shape normed | orientation_plane  | a_obj         | v_frustrum   |   *a_norm* | environment | 
-| ------------- | ------------- |------------- |------------- |------------- |------------- |------------- |------------- |-------------        |------------- |------------- |------------- |------------- |
+| number        | object class  | object       |  d_min       | d_max        |  dimensions  | shape        | shape normed | orientation_plane  | a_obj         | v_frustrum   |   *a_norm* | environment |   LOO_raw   | LOO_ref     |   LOO_norm  | Persistance | Suitability |
+| ------------- | ------------- |------------- |------------- |------------- |------------- |------------- |------------- |-------------        |------------- |------------- |-------------|-------------|-------------|-------------|-------------|-------------|-------------| 
 
 
 
