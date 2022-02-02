@@ -18,6 +18,6 @@ This page contains several information for the object based localization methods
 | Content Cell  | Content Cell  |
 
 
-|Nummer   |Class   |Object  |distance|distance|dimension 2D|a_obj   |spatial plane|frustum volume|a_norm  |dimension|shape   |normed obj|material|surface |LOO     |persistence|Environment|AI dataset|distribution around vehicle|suitability|Camrea bis Fahrbahnrand rechts|1,75|   |Street length in Germany [km]|627000|
+| Nummer  | Class   |Object  |distance|distance|dimension 2D|a_obj   |spatial plane|frustum volume|a_norm  |dimension|shape   |normed obj|material|surface |LOO     |persistence|Environment|AI dataset|distribution around vehicle|suitability|Camrea bis Fahrbahnrand rechts|1,75|   |Street length in Germany [km]|627000|
 | --------|--------|--------|--------|--------|--------    |--------|--------     |--------      |--------|-------- |--------|--------  |--------|--------|--------|--------   |--------   |--------  |--------                   |--------   |--------                      |--------|--------                     |--------|
 
