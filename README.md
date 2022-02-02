@@ -26,9 +26,9 @@ This page contains several information for the object based localization methods
 |2|Verkehrszeichen|Schilder|3|300|d=42 - 120|0,64|YZ|0,2112|0,000711111|2D||ja|Blech|regelmäßig, glatt, refelktierend|37,4800638|16|City, Rural, Highway, Forest, Natural|x|360°|0,266524898|||||||
 |3|Verkehrszeichen|Fahrbahnmarkierungen|10|300|w=12 - 30 x l=600-1200||XY|5,394|0,01798|2D||ja|Plastik, Glas|regelmäßig, rau, refelktierend|3,333333333|5|City, Rural, Highway |x|360°|0,299666667|||||||
 |4|Verkehrszeichen|Leitpfosten|1,5|300|w=12 x h=100|0,12|YZ|0,0796|0,000266667|3D|Trieder|ja|Plastik,Reflektor|regelmäßig, glatt, refelktierend - matt|9,728867624|5|Rural, Highway|x|360°|0,012971823|||||||
-|5|Lichtsignalanlagne|Ampeln|1,5|300|d=10 - 30|0,3|YZ|0,199|0,000666667|2D/3D|Rund(2D)|Recheckig (3D)|ja|Plastik, Glas|regelmäßig, glatt, matt|0,079744817|10|City, Rural, Highway|x|360°|0,000531632|||||||
+|5|Lichtsignalanlagne|Ampeln|1,5|300|d=10 - 30|0,3|YZ|0,199|0,000666667|2D/3D|Rund(2D)|ja|Plastik, Glas|regelmäßig, glatt, matt|0,079744817|10|City, Rural, Highway|x|360°|0,000531632|||||||
 |6|Straßenbeleuchtung|Laternen|5|300|d_pole=8 |0,96|YZ|0,1888|0,00064|3D|Punkt / Kügel / Planar|nein|Metall, Glas|regelmäßig, glatt, matt|15,15151515|40|City|~|360°|0,096969697|||||||
-|7|Verkehrsrückhalte systeme|Leitplanke / Unterfahrschuzt|1,5|300|b=310 - 370 |Upper edge 75||XZ |54,24864375|0,180828813|2D/3D||ja|Metall|regelmäßig, glatt, matt|0,102073365|50|City, Rural, Highway|~|360°|0,184578054|||||||
+|7|Verkehrsrückhalte systeme|Leitplanke / Unterfahrschuzt|1,5|300|b=310 - 370,Upper edge=75|XZ |54,24864375|0,180828813|2D/3D|ja|Metall|regelmäßig, glatt, matt|0,102073365|50|City, Rural, Highway|~|360°|0,184578054|||||||
 |8|Hindernisse|Blumentopf|1,5|300|h=60 x w=100|0,6|YZ|0,398|0,001333333|3D|Topf, rechteck|nein|Holz, Beton, Metall|regelmäßig, glatt, matt||-|-|City, Rural, Highway, Forest, Natural|-|360°|0|||||||
 |9|Bauwerke|Haus|1,5|300|h=1000 x w=1000|100|YZ|66,33333333|0,222222222|3D / 2D|Haus|nein|Holz, Beton, Metall, Glas, Plastik|regelmäßig / Unregelmäßig|30,7814992|60|City, Rural, Highway|-|360°|68,40333156|||||||
 |10|Städtemöbel|Abfalleimer|2|300|w=30 x h=60|0,18|YZ|0,0894|0,0003|3D||nein|Holz, Beton, Metall|regelmäßig / Unregelmäßig, glatt, matt|5,187082956|12|City|x|360°|0,015561249|||||||
