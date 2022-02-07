@@ -8,7 +8,7 @@ This page contains several information for the object based localization methods
 
 
 <p float="center">
-    <img src="mindmap.png" width="100%" title="Object attributes for Localization"/>
+    <img src="mindmap.PNG" width="100%" title="Object attributes for Localization"/>
 </p>
 
 
