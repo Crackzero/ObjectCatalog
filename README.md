@@ -7,6 +7,9 @@ This page contains several information for the object based localization methods
 * A table with objects, attributes and suitability in comparsion of their suitability for object-based localization methods. The suitability is claculated by the object-based norm
 
 
+<p float="center">
+    <img src="mindmap.png" width="100%" title="Object attributes for Localization"/>
+</p>
 
 
 
