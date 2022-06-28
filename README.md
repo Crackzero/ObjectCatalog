@@ -6,7 +6,7 @@ This page contains several information for the object based localization methods
 * A mindmap for the overview of all proposed attributes for object description, georeferencing for the creation of future datasets.
 
 * A table with objects, attributes and suitability in comparsion of their suitability for object-based localization methods. The suitability is claculated by the object-based norm
-* * [Download table in Excel format](/Objektkatalog_20220207_7.xlsx)
+* * [Download full object catalog in excel format](/Objektkatalog_20220207_7.xlsx)
 
 
 **Mindmap with object attributes**
