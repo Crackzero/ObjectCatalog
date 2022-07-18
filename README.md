@@ -1,4 +1,4 @@
-# UNDER CONSTRUCTION
+<!-- # UNDER CONSTRUCTION -->
 # Landmarks for Object-Based Visual Outdoor Localization Approaches of Automated Ground Vehicles
 
 This page contains several information for the object based localization methods by using landmarks:
@@ -30,7 +30,7 @@ This page contains several information for the object based localization methods
 |7|traffic sign|sign|3|300|d=42 - 120|0,64|YZ|0,2112|0,000711111|2D||ja|Blech|regelmäßig, glatt, refelktierend|37,4800638|16|City, Rural, Highway, Forest, Natural|x|360°|0,266524898|||||||
 |8|buildings|church spires|15|300|h=40 x w=8m|320|YZ|20,26666667|0,071111111|2D/3D||nein|Holz, Beton, Metall|regelmäßig, glatt, matt|0,357201812|100|City, Rural, Highway |-|360°|0,254010178|||||||
 |9|traffic restraint systems |traffic barrier|1,5|300|b=310 - 370,Upper edge=75|| XZ |54,24864375|0,180828813|2D/3D||ja|Metall|regelmäßig, glatt, matt|0,102073365|50|City, Rural, Highway|~|360°|0,184578054|||||||
-|10|street lights|street lights|5|300|d_pole=8 |0,96|YZ|0,1888|0,00064|3D|Punkt / Kügel / Planar|nein|Metall, Glas|regelmäßig, glatt, matt|15,15151515|40|City|~|360°|0,096969697|||||||
+|10|street lights|street lights|5|300|d_pole=8 |0,96|YZ|0,1888|0,00064|3D|Punkt / Kugel / Planar|nein|Metall, Glas|regelmäßig, glatt, matt|15,15151515|40|City|~|360°|0,096969697|||||||
 |11|animal buildings|anthill|5|300|h=20 - 200|0,6|YZ|0,118|0,0004|3D||nein|Erde, Holz|unregelmäßig,-, matt|14,83239697|15|Forest, Natural|-|360°|0,059329588|||||||
 |12|traffic restraint systems|noise barrier|5|300|h=3,5 x l=300||XY|125,965|0,419883333|2D||nein|Holz, Beton, Metall|regelmäßig, glatt, matt|0,003827751|80|City, Highway|-|Fahrtrichtung|0,016072089|||||||
 |13|city furniture|trashcan|2|300|w=30 x h=60|0,18|YZ|0,0894|0,0003|3D||nein|Holz, Beton, Metall|regelmäßig / Unregelmäßig, glatt, matt|5,187082956|12|City|x|360°|0,015561249|||||||
