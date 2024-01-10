@@ -15,9 +15,9 @@ This page contains several information for the object based localization methods
 </p>
 
 
-**Table with object attributes and suitability**
+**Table with Object Attributes and Localization Suitability**
 
-|Nummer   |Class   |Object  |distance|distance|dimension 2D|a_obj   |spatial plane|frustum volume|a_norm  |dimension|shape   |normed obj|material|surface |LOO     |persistence|Environment|AI dataset|distribution around vehicle|suitability|Camrea bis Fahrbahnrand rechts|1,75    |        |Street length in Germany [km]|627000  |
+|Nummer   |Class   |Object  |Distance|Distance|Dimension 2D|a_obj   |Spatial plane|Frustum volume|a_norm  |Dimension|Shape   |Normed obj|Material|Surface |Probalitly of Occurence|Persistence|Environment|AI Dataset|Distribution around Vehicle|Suitability|Camera to the right Side of the Road|1,75    |        |Street length in Germany [km]|627000  |
 | --------|--------|--------|--------|--------|--------    |--------|--------     |--------      |--------|-------- |--------|--------  |--------|--------|--------|--------   |--------   |--------  |--------                   |--------   |--------                      |--------|--------|--------                     |--------|
 |         |        |        |min     |max     ||||||handling|||||||||||Höhe camera [m]|1,2||Area of Germany [km²]|357386|
 ||||[m]|[m]|[cm x cm]|[m²]||[m³]|[m²]|[2D/3D]|||||[1/km]|[yr]|||||||||||
