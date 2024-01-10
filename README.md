@@ -16,12 +16,19 @@ This page contains several information for the object based localization methods
 
 
 **Assumptions for calculating the object localization suitability**
-- Camera to the right Side of the Road = 1,75m 
-- Street length in Germany = 627000 km
-- Z height of camera camera = 1.2 m
+All referenced sources of object attributes can be found in the Microsoft Excel table.
+- A frontfacing camera is mounted in a car and driving along a straight road.
+- While driving towards the object, a distance towards the object d = [-300 to 0] was assumed.
+- The camera to the right side of the Road = 1,75m 
+- Germany has a street length in = 627000 km
+- Camera Z height (above the street) = 1.2 m
 - Area of Germany = 357386 km²
 
+
+
 **object localization suitability calculatoin**
+The calculation is done in three steps.
+first of all the real world object is 
 
 
 
