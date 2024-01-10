@@ -16,7 +16,8 @@ This page contains several information for the object based localization methods
 
 
 **Assumptions for calculating the object localization suitability**
-All referenced sources of object attributes can be found in the Microsoft Excel table.
+
+*Important:* All referenced sources of object attributes can be found in the Microsoft Excel table.
 - A frontfacing camera is mounted in a car and driving along a straight road.
 - While driving towards the object, a distance towards the object d = [-300 to 0] was assumed.
 - The camera to the right side of the Road = 1,75m 
@@ -24,11 +25,15 @@ All referenced sources of object attributes can be found in the Microsoft Excel 
 - Camera Z height (above the street) = 1.2 m
 - Area of Germany = 357386 km²
 
-
+\n
 
 **object localization suitability calculatoin**
 The calculation is done in three steps.
-first of all the real world object is 
+1.  The real world object is projected via pinhole model to a camera image plane.
+    The object area normalization on image plane is done via the integration of the object's projected area along the longitudinal distance $d_{x} \in [d_{min},d_{max}]$ to a frustum and its division through the distance (3).
+$$ a_{img,norm} = \frac{1}{d_{max}-d_{min}} \cdot \int_{d_{min}}^{d_{max}} a_{img}(x_{veh}) \, dx \eqno{(3)} $$
+
+$$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)$$
 
 
 
