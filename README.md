@@ -14,7 +14,8 @@ This page contains several information for the object based localization methods
     <img src="mindmap.PNG" width="100%" title="Object attributes for Localization"/>
 </p>
 
-
+ <br>
+ 
 **Assumptions for calculating the object localization suitability**
 
 *Important:* All referenced sources of object attributes can be found in the Microsoft Excel table.
@@ -25,17 +26,24 @@ This page contains several information for the object based localization methods
 - Camera Z height (above the street) = 1.2 m
 - Area of Germany = 357386 km²
 
-\n
+ <br>
 
 **object localization suitability calculatoin**
-The calculation is done in three steps.
+
+The object localization suitability calculated by normed object projection on image plane, its porbability of occurence and persistence.
 1.  The real world object is projected via pinhole model to a camera image plane.
-    The object area normalization on image plane is done via the integration of the object's projected area along the longitudinal distance $d_{x} \in [d_{min},d_{max}]$ to a frustum and its division through the distance (3).
-$$ a_{img,norm} = \frac{1}{d_{max}-d_{min}} \cdot \int_{d_{min}}^{d_{max}} a_{img}(x_{veh}) \, dx \eqno{(3)} $$
+    The object area normalization on image plane is done via the integration of the object's projected area along the longitudinal distance $d_{x} \in [d_{min},d_{max}]$ to a frustum and its division through the distance:
 
-$$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)$$
+$$ a_{img,norm} = \frac{1}{d_{max}-d_{min}} \cdot \int_{d_{min}}^{d_{max}} a_{img}(x_{veh}) * dx $$
 
+2. The attribute probability of occurrence (PO) in objects per kilometre beside the roads.
+3. The persistence of objects correlate with the update cycle of map.
+   
+Finally the object localization suitability is calculated:
 
+$$ suitability = a_{img,norm} \cdot PO \cdot PS $$
+
+ <br>
 
 **Table with Object Attributes and Localization Suitability**
 
