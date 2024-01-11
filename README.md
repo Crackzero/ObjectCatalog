@@ -6,7 +6,7 @@ This page contains several information for the object based localization methods
 * A mindmap for the overview of all proposed attributes for object description, georeferencing for the creation of future datasets.
 
 * A table with objects, attributes and suitability in comparsion of their suitability for object-based localization methods. The suitability is claculated by the object-based norm
-* * [Download full object catalog in excel format](/Objektkatalog_20220207_7.xlsx)
+* * [Download full object catalog in excel format](/ObjectCatalog.xlsx)
 
 
 **Mindmap with object attributes**
@@ -68,7 +68,7 @@ $$ suitability = a_{img,norm} \cdot PO \cdot PS $$
 |14|city furniture|advertising pillar|5|300|d=140 x h=310|4,34|YZ|0,853533333|0,002893333|2D/3D||no|wood, concrete, metal|regular, smooth, matt|0,468640795|100|city|~|360°|0,01355934||
 |15|traffic sign|delinator|1,5|300|w=12 x h=100|0,12|YZ|0,0796|0,000266667|3D|trihedron|yes|plastic, reflector|regular, smooth, reflective - matt|9,728867624|5|rural, highway|x|360°|0,012971823|
 |16|water bodies|river|5|300|l=30000 x w=500||XY|450000|1500|2D||no|water|irregular,-, matt|0,000629571|100|city, rural, highway, forest, natural|-|360°|9,443570817|
-|17|light signal systems|traffic lights|1,5|300|d=10 - 30|0,3|YZ|0,199|0,000666667|2D/3D|Rund(2D)|yes|plastic, glass|regular, smooth, matt|0,079744817|10|city, rural, highway|x|360°|0,000531632|
+|17|light signal systems|traffic lights|1,5|300|d=10 - 30|0,3|YZ|0,199|0,000666667|2D/3D|round|yes|plastic, glass|regular, smooth, matt|0,079744817|10|city, rural, highway|x|360°|0,000531632|
 |18|obstacles|big plant pot|1,5|300|h=60 x w=100|0,6|YZ|0,398|0,001333333|3D|pot, rectangular|no|wood, concrete, metal|regular, smooth, matt|-|-|city, rural, highway, forest, natural|-|360°|0|
 |19|miscellaneous|bale storage|5|300|d=150||YZ|||2D/3D||no|-|-|-|-|-|-|360°||
 |20|orientation object|Mercedes star|2|300|d=100-300||YZ|||3D||no|wood, concrete, metal|irregular, -, -|-|-|city, rural, highway, forest, natural|-|360°||
