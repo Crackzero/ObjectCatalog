@@ -1,21 +1,27 @@
 <!-- # UNDER CONSTRUCTION -->
 # Landmarks for Object-Based Visual Outdoor Localization Approaches of Automated Ground Vehicles
 
-This page contains several information for the object based localization methods by using landmarks:
+This page contains several information for future outdoor object-based localization methods by using landmarks:
 
-* A mindmap for the overview of all proposed attributes for object description, georeferencing for the creation of future datasets.
+* A mindmap as an overview of proposed attributes for object description, georeferencing for the creation of future datasets.
 
-* A table with objects, attributes and suitability in comparsion of their suitability for object-based localization methods. The suitability is claculated by the object-based norm
-* * [Download full object catalog in excel format](/ObjectCatalog.xlsx)
+* An object catalog as table with object-classes, attributes and advice for object-based localization suitability.
+* * [Download complete object catalog in excel format](/ObjectCatalog.xlsx)
 
+<br><br>
 
-**Mindmap with object attributes**
+<h2>Mindmap with Object Attributes</h2>
 <p float="center">
     <img src="mindmap.PNG" width="100%" title="Object attributes for Localization"/>
 </p>
 
- <br>
- 
+<br>
+
+
+<h2>Object Catalog</h2>
+
+[Download the complete object catalog in excel format](/ObjectCatalog.xlsx)
+
 **Assumptions for calculating the object localization suitability**
 
 *Important:* All referenced sources of object attributes can be found in the Microsoft Excel table.
