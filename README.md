@@ -1,9 +1,9 @@
 <!-- # UNDER CONSTRUCTION -->
 # Landmarks for Object-Based Visual Outdoor Localization Approaches of Automated Ground Vehicles
 
-This page contains several information for future outdoor object-based localization methods by using landmarks:
+This page contains relevant information for future outdoor object-based localization methods by using landmarks:
 
-* A mindmap as an overview of proposed attributes for object description, georeferencing for the creation of future datasets.
+* A mindmap as overview of proposed attributes for object description, georeferencing for the creation of future datasets.
 
 * An object catalog as table with object-classes, attributes and advice for object-based localization suitability.
 * * [Download complete object catalog in excel format](/ObjectCatalog.xlsx)
@@ -27,8 +27,8 @@ This page contains several information for future outdoor object-based localizat
 *Important:* All referenced sources of object attributes can be found in the Microsoft Excel table.
 - A frontfacing camera is mounted in a car and driving along a straight road.
 - While driving towards the object, a distance towards the object d = [-300 to 0] was assumed.
-- The camera to the right side of the Road = 1,75m 
-- Germany has a street length in = 627000 km
+- Distance of the camera to the right side of the road = 1.75 m 
+- Germany has a total street length in = 627000 km
 - Camera Z height (above the street) = 1.2 m
 - Area of Germany = 357386 km²
 
@@ -36,7 +36,7 @@ This page contains several information for future outdoor object-based localizat
 
 **object localization suitability calculatoin**
 
-The object localization suitability calculated by normed object projection on image plane, its porbability of occurence and persistence.
+The object localization suitability calculated by normed object projection on image plane, probability of occurence and persistence.
 1.  The real world object is projected via pinhole model to a camera image plane.
     The object area normalization on image plane is done via the integration of the object's projected area along the longitudinal distance $d_{x} \in [d_{min},d_{max}]$ to a frustum and its division through the distance:
 
@@ -73,7 +73,7 @@ $$ suitability = a_{img,norm} \cdot PO \cdot PS $$
 |13|city furniture|trashcan|2|300|w=30 x h=60|0,18|YZ|0,0894|0,0003|3D||no|wood, concrete, metal|regular / irregular, smooth, matt|5,187082956|12|city|x|360°|0,015561249|
 |14|city furniture|advertising pillar|5|300|d=140 x h=310|4,34|YZ|0,853533333|0,002893333|2D/3D||no|wood, concrete, metal|regular, smooth, matt|0,468640795|100|city|~|360°|0,01355934||
 |15|traffic sign|delinator|1,5|300|w=12 x h=100|0,12|YZ|0,0796|0,000266667|3D|trihedron|yes|plastic, reflector|regular, smooth, reflective - matt|9,728867624|5|rural, highway|x|360°|0,012971823|
-|16|water bodies|river|5|300|l=30000 x w=500||XY|450000|1500|2D||no|water|irregular,-, matt|0,000629571|100|city, rural, highway, forest, natural|-|360°|9,443570817|
+|16|body of water|river|5|300|l=30000 x w=500||XY|450000|1500|2D||no|water|irregular,-, matt|0,000629571|100|city, rural, highway, forest, natural|-|360°|9,443570817|
 |17|light signal systems|traffic lights|1,5|300|d=10 - 30|0,3|YZ|0,199|0,000666667|2D/3D|round|yes|plastic, glass|regular, smooth, matt|0,079744817|10|city, rural, highway|x|360°|0,000531632|
 |18|obstacles|big plant pot|1,5|300|h=60 x w=100|0,6|YZ|0,398|0,001333333|3D|pot, rectangular|no|wood, concrete, metal|regular, smooth, matt|-|-|city, rural, highway, forest, natural|-|360°|0|
 |19|miscellaneous|bale storage|5|300|d=150||YZ|||2D/3D||no|-|-|-|-|-|-|360°||
